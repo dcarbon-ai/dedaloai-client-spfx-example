@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.20.4",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.24.0"
+    },
+    "version": "1.20.0",
+    "libraryName": "dedaloai-client-spfx-example",
+    "libraryId": "792657cd-a102-4482-94e2-eb3e992cdea5",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "dedaloai-client-spfx-example",
+    "solutionShortDescription": "dedaloai-client-spfx-example description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

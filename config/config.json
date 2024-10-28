@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "dedalo-ai-badge-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/dedaloAiBadge/DedaloAiBadgeWebPart.js",
+          "manifest": "./src/webparts/dedaloAiBadge/DedaloAiBadgeWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "DedaloAiBadgeWebPartStrings": "lib/webparts/dedaloAiBadge/loc/{locale}.js"
+  }
+}

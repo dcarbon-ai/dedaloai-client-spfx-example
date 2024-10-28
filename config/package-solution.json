@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "dedaloai-client-spfx-example-client-side-solution",
+    "id": "792657cd-a102-4482-94e2-eb3e992cdea5",
+    "version": "1.0.8.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "dedaloai-client-spfx-example description"
+      },
+      "longDescription": {
+        "default": "dedaloai-client-spfx-example description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "dedaloai-client-spfx-example Feature",
+        "description": "The feature that activates elements of the dedaloai-client-spfx-example solution.",
+        "id": "d96d3ef4-20f3-4417-a922-23e921a92240",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/dedaloai-client-spfx-example.sppkg"
+  }
+}
